@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    background: linear-gradient(to left top, rgb(52, 6, 112), rgb(20, 155, 245)) fixed;
+}
+
+.login {
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 350px;
+    padding-top: 80px;
+    background-color:rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.dashboard {
+    overflow: scroll;
+    width: 70vw;
+    height: 70vh;
+    margin-top: 50px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.autherror {
+    font-size: 14px;
+    color: red;
+}
+
+.authlink {
+    text-decoration: underline;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+#messages {
+    overflow: scroll;
+    margin-top: 50px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70vw;
+    height: 65vh;
+    background-color: #fff;
+}
+
+#sendform {
+    padding: 30px;
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
